@@ -69,8 +69,12 @@ function EventManager() {
     setOpen(false);
   };
   const handleDeleteEvent = async srNo => {
-    await api.delete(`/events/${srNo}`);
-    fetchEvents();
+    try {
+      await api.delete(`/events/${srNo}`);
+      fetchEvents();
+    } catch (err) {
+      alert('Delete failed: ' + (err.response?.data?.message || err.message));
+    }
   };
 
   const handleAddDressCode = async () => {

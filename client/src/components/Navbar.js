@@ -19,6 +19,7 @@ function Navbar({ username }) {
         {username && (
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
             <Typography variant="body1">Logged in as: <b>{username}</b></Typography>
+            <Button color="inherit" onClick={() => navigate('/print')}>Print</Button>
             <Button color="inherit" onClick={handleLogout}>Logout</Button>
           </Box>
         )}

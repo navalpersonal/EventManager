@@ -4,6 +4,7 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import EventManager from './pages/EventManager';
 import Report from './pages/Report';
+import PrintEvents from './pages/PrintEvents';
 import Navbar from './components/Navbar';
 import { jwtDecode } from 'jwt-decode';
 
@@ -22,6 +23,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/events" element={<><Navbar username={username} /><EventManager username={username} /></>} />
         <Route path="/report" element={<><Navbar username={username} /><Report username={username} /></>} />
+        <Route path="/print" element={<PrintEvents />} />
       </Routes>
     </Router>
   );
