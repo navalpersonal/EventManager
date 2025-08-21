@@ -1,0 +1,42 @@
+[
+  {
+    "srNo": 1,
+    "date": "2025-08-22",
+    "time": "16:30",
+    "eventName": "Celebrate ABC",
+    "dressCode": "Uniform",
+    "venue": "Surya ",
+    "remarks": "ABC",
+    "username": "demo@example.com"
+  },
+  {
+    "srNo": 2,
+    "date": "2025-08-23",
+    "time": "16:25",
+    "eventName": "Lecture On Trauma Management",
+    "dressCode": "Uniform",
+    "venue": "LJ Auditorium",
+    "remarks": "All officers to attend",
+    "username": "demo@example.com"
+  },
+  {
+    "srNo": 3,
+    "date": "",
+    "time": "",
+    "eventName": "",
+    "dressCode": "",
+    "venue": "",
+    "remarks": "",
+    "username": "demo@example.com"
+  },
+  {
+    "srNo": 4,
+    "date": "2025-08-22",
+    "time": "12:24",
+    "eventName": "New Event",
+    "dressCode": "Uniform",
+    "venue": "New Venue",
+    "remarks": "",
+    "username": "demo@example.com"
+  }
+]
