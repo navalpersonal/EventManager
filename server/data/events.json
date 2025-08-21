@@ -6,7 +6,7 @@
     "eventName": "Celebrate ABC",
     "dressCode": "Uniform",
     "venue": "Surya ",
-    "remarks": "ABC",
+    "remarks": "ABCD",
     "username": "demo@example.com"
   },
   {
@@ -17,16 +17,6 @@
     "dressCode": "Uniform",
     "venue": "LJ Auditorium",
     "remarks": "All officers to attend",
-    "username": "demo@example.com"
-  },
-  {
-    "srNo": 3,
-    "date": "",
-    "time": "",
-    "eventName": "",
-    "dressCode": "",
-    "venue": "",
-    "remarks": "",
     "username": "demo@example.com"
   },
   {
